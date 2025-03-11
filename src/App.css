@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+dialog{
+  width:500px;
+  max-height:400px;
+  padding:30px 30px 70px 30px;
+  border:0;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  border-radius:5px;
+  position:relative;  
+}
+
+dialog button{
+  position:absolute;
+  bottom:20px;
+  right:30px;
+  background:#000000;
+  color:#ffffff;
+}
+p{
+  color:#aaa;
+  padding-bottom:10px;
+  line-height:2;
+  font-size:14px;
+}
